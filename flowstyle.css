@@ -1,0 +1,64 @@
+body{
+	background-color: aliceblue;
+	background-image: url("back.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+a:hover, a:active{
+	background-color: green;
+}
+
+h3{
+	text-align: center;
+	color: green;
+	font-style: oblique;
+}
+
+h5{
+	color: maroon;
+	margin-left: 10px;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: lightblue;
+}
+
+li{
+	float: left;
+	text-align: center;
+}
+
+li a{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 10px 16px;
+	text-decoration: none;
+}
+
+li a:hover{
+	background: black;
+	color: white;
+	text-decoration: none;
+}
+
+.active{
+	background-color: azure;
+	color: black;
+}
+
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background-color: lightblue;
+	height: 5%;
+	width: 100%;
+	color: black;
+}
