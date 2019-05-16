@@ -1,24 +1,41 @@
 <html>
 
 <body>
+	
 <head>
-<title> rezaulhsagar </title>
-<link rel="stylesheet" type="text/css" href="pojstyle.css">
+ <title> rezaulhsagar </title>
+ <link rel="stylesheet" type="text/css" href="pojstyle.css">
 </head>
 
 <ul>
-<li><a href="index.html"><small><b>মূল পাতা</b></small></a></li>
-<li><a class="active" href="poj.html"><small><b>POJ</b></small></a></li>
-<li><a href="about.html"><small><b>আলতু ফালতু কথা</b></small></a></li>
+ <li><a href="index.html"><small><b>মূল পাতা</b></small></a></li>
+ <li><a class="active" href="poj.html"><small><b>POJ</b></small></a></li>
+ <li><a href="about.html"><small><b>আলতু ফালতু কথা</b></small></a></li>
 </ul>
-
 	
  
+ <button onclick="p1066()">Code</button>
+ <div id="p1066">
+  This is p1066 code.
+ </div>
+		
+ 
 <div class="footer">
-<ul>
-<li><a href="#top"><small><b>এক্কেবারে উপরে</b></small></a></li>
-</ul>
+ <ul>
+  <li><a href="#top"><small><b>এক্কেবারে উপরে</b></small></a></li>
+ </ul>
 </div>
+	
+<script>
+function p1066() {
+  var x = document.getElementById("p1066");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
  
 </body>
 
